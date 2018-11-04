@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        ID表示获取一个对象的标识
+        class表示需要创建哪个类的对象
+    -->
+    <!--<bean id="peo" class="com.yuyuda.pojo.People"/>-->
+
+    <!--<bean id="peo" class="com.yuyuda.pojo.People">
+        <constructor-arg index="0" value="123"/>
+        <constructor-arg index="1" value="刘志弦"/>
+    </bean>-->
+
+    <!--<bean id="peo" class="com.yuyuda.pojo.People">
+        <constructor-arg name="id" value="123"/>
+        <constructor-arg name="name" value="刘志弦"/>
+    </bean>-->
+
+    <!--<bean id="facroty" class="factory.PeopleFactory"/>
+    <bean id="peo1" factory-bean="facroty" factory-method="newInstance"/>-->
+
+    <bean id="peo2" class="factory.PeopleFactory" factory-method="newInstance"/>
+
+</beans>

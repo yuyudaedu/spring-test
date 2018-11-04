@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyuda.mapper.PeopleMapper">
+    <select id="selAll" resultType="com.yuyuda.pojo.People">
+        SELECT * FROM `people`
+    </select>
+
+    <select id="oneParameter" resultType="com.yuyuda.pojo.People" parameterType="int">
+        SELECT * FROM people WHERE id=#{0}
+    </select>
+
+    <select id="oneParameter2" resultType="com.yuyuda.pojo.People" parameterType="int">
+        SELECT * FROM people WHERE id=#{param1}
+    </select>
+
+    <select id="entityObject" resultType="com.yuyuda.pojo.People" parameterType="com.yuyuda.pojo.People">
+        SELECT * FROM people WHERE id=${id}
+    </select>
+
+    <select id="entityObject2" resultType="com.yuyuda.pojo.People" parameterType="com.yuyuda.pojo.People">
+        SELECT * FROM people WHERE id=#{id}
+    </select>
+
+    <select id="mapWay" resultType="com.yuyuda.pojo.People" parameterType="map">
+        SELECT * FROM people WHERE id=#{id} AND name=#{name}
+    </select>
+
+    <!--<select id="page" resultType="com.yuyuda.pojo.People" parameterType="map">
+        SELECT * FROM people LIMIT #{pageStart}, #{pageSize}
+    </select>-->
+
+   <!-- <select id="page" resultType="peo" parameterType="map">
+        SELECT * FROM people LIMIT #{pageStart}, #{pageSize}
+    </select>-->
+
+    <select id="page" resultType="People" parameterType="map">
+        SELECT * FROM people LIMIT #{pageStart}, #{pageSize}
+    </select>
+
+    <insert id="insert1" parameterType="People">
+        INSERT INTO people VALUES (DEFAULT, #{name}, #{age})
+    </insert>
+</mapper>

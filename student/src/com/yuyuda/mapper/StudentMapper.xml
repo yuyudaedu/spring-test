@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyuda.mapper.StudentMapper">
+    <select id="selByPage" resultType="student" parameterType="pageinfo">
+        SELECT * FROM `student`
+          <where>
+              <if test="sname != null and sname != ''">
+                  <bind name="sname" value="'%'+sname+'%'"></bind>
+                  AND `name` LIKE #{sname}
+              </if>
+              <if test="tname != null and tname != ''">
+                  <bind name="tname" value="'%'+tname+'%'"></bind>
+                  AND `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE #{tname})
+              </if>
+          </where>
+        LIMIT #{startPage}, #{pageSize}
+    </select>
+
+    <select id="selCountByPageInfo" parameterType="pageinfo" resultType="long">
+        SELECT COUNT(0) FROM `student`
+        <where>
+            <if test="sname != null and sname != ''">
+                <bind name="sname" value="'%'+sname+'%'"></bind>
+                AND `name` LIKE #{sname}
+            </if>
+            <if test="tname != null and tname != ''">
+                <bind name="tname" value="'%'+tname+'%'"></bind>
+                AND `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE #{tname})
+            </if>
+        </where>
+    </select>
+</mapper>

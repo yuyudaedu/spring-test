@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace理解成实现类的全路径(包名+类名)-->
+<mapper namespace="com.yuyuda.mapper.FlowerMapper">
+    <!--id:方法名
+        parameterType:参数类型
+        resultType:返回值类型
+    -->
+    <select id="selAll" resultType="com.yuyuda.pojo.Flower">
+        SELECT * FROM `flower`
+    </select>
+    <select id="selById" resultType="int">
+        SELECT COUNT(0) FROM `flower` WHERE `id`=1
+    </select>
+    <select id="c" resultType="map">
+        SELECT * FROM `flower`
+    </select>
+</mapper>

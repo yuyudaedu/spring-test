@@ -1,0 +1,933 @@
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=%{0}  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teache` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %??2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teache` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %??2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %10%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `name` LIKE ? LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `name` LIKE ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %2%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 4(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 8(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 4(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 4(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 4 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 8(Integer), 4(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 4(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 6(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 8(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 6(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 4(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 2(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 4(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 6(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 4(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 2(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 0(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?) LIMIT ?, ?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String), 2(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `teacher` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT COUNT(0) FROM `student` WHERE `tid` IN(SELECT `id` FROM `teacher` WHERE `name` LIKE ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: %1%(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DINSTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`,b.`id` `takeid`, c.`portname` `lportname`,c.`cityname` `lcityname`,c.`id` `landid` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`,b.`id` `takeid`, c.`portname` `lportname`,c.`cityname` `lcityname`,c.`id` `landid` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid` WHERE a.`takeid`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid` WHERE a.`landid`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid` WHERE a.`takeid`=? AND a.`landid`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `takeid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport` WHERE `id` IN(SELECT DISTINCT `landid` FROM `airplane`)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT a.*, b.`portname` `tportname`,b.`cityname` `tcityname`, c.`portname` `lportname`,c.`cityname` `lcityname` FROM `airplane` a LEFT JOIN `airport` b ON b.`id`=a.`takeid` LEFT JOIN `airport` c ON c.`id`=a.`landid` WHERE a.`landid`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `airport`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `user` WHERE `name`=? AND `password`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: ¡ı÷æœ“(String), lzx(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `user` WHERE `name`=? AND `password`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: ¡ı÷æœ“(String), (String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `user` WHERE `name`=? AND `password`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: ¡ı÷æœ“(String), lzx(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 

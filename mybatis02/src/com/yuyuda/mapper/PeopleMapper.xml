@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyuda.mapper.PeopleMapper">
+    <select id="selAll" resultType="people">
+        SELECT * FROM people
+    </select>
+
+    <select id="selMultiCondition" resultType="people">
+        SELECT * FROM `people` WHERE `id`=#{param1} AND `name`=#{param2}
+    </select>
+    
+    <select id="selDynamicSql" resultType="people">
+        SELECT * FROM `people`
+        <where>
+            <if test="id != 0">
+                AND `id`=#{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND `name`=#{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selDynamicSqlChoose" resultType="people">
+        SELECT * FROM `people`
+        <where>
+            <choose>
+                <when test="id != 0">
+                    AND `id`=#{id}
+                </when>
+                <when test="name != null and name != ''">
+                    AND `name`=#{name}
+                </when>
+            </choose>
+        </where>
+    </select>
+</mapper>

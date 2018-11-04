@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyuda.mapper.AirplaneMapper">
+    <resultMap id="airplaneMap" type="airplane">
+        <id property="id" column="id"/>
+        <result property="airNo" column="airno"/>
+        <result property="time" column="time"/>
+        <result property="price" column="price"/>
+        <association property="takePort" javaType="airport">
+            <id property="id" column="takeid"/>
+            <result property="portname" column="tportname"/>
+            <result property="cityname" column="tcityname"/>
+        </association>
+        <association property="landPort" javaType="airport">
+            <id property="id" column="landid"/>
+            <result property="portname" column="lportname"/>
+            <result property="cityname" column="lcityname"/>
+        </association>
+    </resultMap>
+    <select id="selPlaneByTakeIdAndLandId" resultMap="airplaneMap">
+        SELECT
+        a.*,
+        b.`portname` `tportname`,b.`cityname` `tcityname`,
+        c.`portname` `lportname`,c.`cityname` `lcityname`
+        FROM `airplane` a
+        LEFT JOIN `airport` b ON b.`id`=a.`takeid`
+        LEFT JOIN `airport` c ON c.`id`=a.`landid`
+        <where>
+            <if test="takeid>0">
+                AND a.`takeid`=#{takeid}
+            </if>
+            <if test="landid>0">
+                AND a.`landid`=#{landid}
+            </if>
+        </where>
+    </select>
+</mapper>

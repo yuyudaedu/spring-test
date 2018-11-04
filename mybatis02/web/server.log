@@ -1,0 +1,54 @@
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM people  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM people  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘德华(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘德华(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘德华(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘德华(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘德华(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 刘志弦(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=? AND `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 刘志弦(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people`  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `name`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 刘志弦(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: SELECT * FROM `people` WHERE `id`=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 

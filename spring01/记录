@@ -1,0 +1,57 @@
+一、Spring创建对象的三种方式
+    1、构造方法方法创建；
+        1.1、无参构造；
+            <bean id="peo" class="com.yuyuda.pojo.People"/>
+        1.2、有参构造，需要明确配置。
+            1.2.1
+                   <bean id="peo" class="com.yuyuda.pojo.People">
+                        <constructor-arg index="0" value="123"/>
+                        <constructor-arg index="1" value="刘志弦"/>
+                   </bean>
+            1.2.2
+                   <bean id="peo" class="com.yuyuda.pojo.People">
+                       <constructor-arg name="id" value="123"/>
+                       <constructor-arg name="name" value="刘志弦"/>
+                   </bean>
+
+    2、实例工厂；
+        2.1、工厂设计模式，是帮助创建对象，一个工厂可以创建多个对象
+        2.2、实例工厂模式，需要创建工厂，对类进行实例化
+            工厂：
+            public class PeopleFactory {
+                public People newInstance() {
+                    return new People();
+                }
+            }
+            调用：
+            PeopleFactory factory = new PeopleFactory();
+            People people = factory.newInstance();
+        2.3、Spring管理工厂实例化
+            xml:
+            <bean id="facroty" class="factory.PeopleFactory"/>
+            <bean id="peo1" factory-bean="facroty" factory-method="newInstance"/>
+            调用：
+            ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+            People peo = context.getBean("peo1", People.class);
+            System.out.println(peo);
+
+    3、静态工厂。
+        3.1 静态工厂设计模式，无需创建工厂，就直接可以生产对象
+            工厂：
+            public class PeopleFactory {
+                public static People newInstance() {
+                    return new People();
+                }
+            }
+            调用：
+            People people = PeopleFactory.newInstance();
+            System.out.println(people);
+        3.2 由Spring管理静态工厂
+            xml:
+            <bean id="peo2" class="factory.PeopleFactory" factory-method="newInstance"/>
+            调用：
+            ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+            People peo = context.getBean("peo2", People.class);
+            System.out.println(peo);
+
+
