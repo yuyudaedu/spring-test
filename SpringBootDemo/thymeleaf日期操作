@@ -1,0 +1,6 @@
+thymeleaf日期操作
+
+1、#dates.format(date)  没有加格式，由浏览器语言决定
+   #dates.format(date, 'yyyy/MM/dd HH:mm:ss')
+
+2、取年 #dates.year(date), 取月 #dates.month(date) 取天 #dates.day(date)

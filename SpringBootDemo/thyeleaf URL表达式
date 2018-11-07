@@ -1,0 +1,10 @@
+thyeleaf URL表达式
+
+1、th:href
+	绝对路径： th:href="@{http://www.baidu.com}"
+	相对路径:  th:href="@{/show}"   相对于项目的根
+ 			  th:href="@{~/project2/resourcename}"  相对于服务器的根路径
+    传参: th:href="@{/show(id=1, name=xxx)}"
+
+2、th:src
+
