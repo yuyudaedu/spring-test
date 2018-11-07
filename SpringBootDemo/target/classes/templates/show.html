@@ -5,17 +5,73 @@
     <title>Title</title>
 </head>
 <body>
-    <table border="1" align="center" width="50%">
-        <tr>
-            <th>编号</th>
-            <th>姓名</th>
-            <th>密码</th>
-        </tr>
-        <tr th:each="user: ${list}">
-            <th th:text="${user.id}"></th>
-            <th th:text="${user.name}"></th>
-            <th th:text="${user.password}"></th>
-        </tr>
-    </table>
+<#--字符串操作-->
+<hr><br>
+<input type="text" th:value="${value}">
+<hr>
+<span th:text="${#strings.isEmpty(value)}"></span>
+<hr>
+<span th:text="${#strings.contains(value, '1')}"></span>
+<span th:text="${#strings.contains(value, '5')}"></span>
+<hr>
+<span th:text="${#strings.startsWith(value, '12')}"></span>
+<span th:text="${#strings.startsWith(value, '23')}"></span>
+<hr>
+<span th:text="${#strings.endsWith(value, '12')}"></span>
+<span th:text="${#strings.endsWith(value, '3')}"></span>
+<hr>
+<span th:text="${#strings.length(value)}"></span>
+<hr>
+<span th:text="${#strings.indexOf(value, '3')}"></span>
+<hr>
+<span th:text="${#strings.substring(value, 0)}"></span>
+<span th:text="${#strings.substring(value, 0, 1)}"></span>
+<hr>
+<span th:text="${#strings.toUpperCase(value)}"></span>
+<span th:text="${#strings.toLowerCase(value)}"></span>
+
+
+<br><br>
+<#--日期操作-->
+<hr>
+<span th:text="${#dates.format(date)}"></span>
+<hr>
+<span th:text="${#dates.format(date, 'yy/MM/dd HH:mm:ss')}"></span>
+<hr>
+<span th:text="${#dates.year(date)}"></span>
+<span th:text="${#dates.month(date)}"></span>
+<span th:text="${#dates.day(date)}"></span>
+<span th:text="${#dates.hour(date)}"></span>
+<span th:text="${#dates.minute(date)}"></span>
+<span th:text="${#dates.second(date)}"></span>
+
+
+
+<br><br>
+<#--逻辑判断-->
+<hr>
+<span th:if="${sex} == 1">性别：男</span>
+<span th:if="${sex} == 2">性别：女</span>
+<hr>
+<div th:switch="${id}">
+    <span th:case="1">ID1</span>
+    <span th:case="2">ID2</span>
+    <span th:case="3">ID3</span>
+</div>
+
+<br><br>
+<#--遍历-->
+<table border="1" align="center" width="50%">
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>密码</th>
+    </tr>
+    <tr th:each="user: ${list}">
+        <th th:text="${user.id}"></th>
+        <th th:text="${user.name}"></th>
+        <th th:text="${user.password}"></th>
+    </tr>
+</table>
 </body>
 </html>

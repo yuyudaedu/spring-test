@@ -15,17 +15,30 @@ import org.elasticsearch.action.get.GetRequest;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.support.replication.ReplicationResponse;
+import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.unit.TimeValue;
+import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.*;
 
@@ -80,9 +93,13 @@ public class UserController {
     }
 
     @RequestMapping("/ssm")
-    public String showUserList(Model model) {
+    public String showUserList(Model model, HttpServletRequest req) {
         List<User> list = userService.findAll();
         model.addAttribute("list", list);
+        req.setAttribute("value", "123abc3");
+        req.setAttribute("date", new Date());
+        req.setAttribute("sex", 1);
+        req.setAttribute("id", 1);
         return "show";
     }
 
@@ -258,6 +275,37 @@ public class UserController {
         return map;
     }
 
+    @RequestMapping("ins_doc2")
+    @ResponseBody
+    public Map<String, Object> insertDoc2() {
+        Map<String, Object> map = new HashMap<>();
+        try {
+            XContentBuilder builder = XContentFactory.jsonBuilder();
+            builder.startObject();
+            {
+                builder.field("user", "刘德华");
+                builder.field("postDate", new Date());
+                builder.field("message", "他是一个老不死的");
+            }
+            builder.endObject();
+            IndexRequest request = new IndexRequest("shopping", "doc").source(builder);
+            IndexResponse index = client.index(request, RequestOptions.DEFAULT);
+            if (index.getResult() == DocWriteResponse.Result.CREATED) {
+                map.put("msg", "文档导入成功！");
+                map.put("state", 200);
+            } else {
+                map.put("msg", "文档导入失败！");
+                map.put("state", 400);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            map.put("msg", "服务器异常！");
+            map.put("state", 500);
+        }
+        return map;
+    }
+
     @RequestMapping("get")
     @ResponseBody
     public Map<String, Object> getDoc() {
@@ -278,6 +326,49 @@ public class UserController {
             map.put("data", "服务器异常");
         }
         return map;
+    }
+
+    @RequestMapping("search_all")
+    @ResponseBody
+    public Map<String, Object> searchAll() {
+        Map<String, Object> map = new HashMap<>();
+        SearchRequest request = new SearchRequest();
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.matchAllQuery());
+        request.source(sourceBuilder);
+        try {
+            SearchResponse searchResponse = client.search(request, RequestOptions.DEFAULT);
+            SearchHits hits = searchResponse.getHits();
+            map.put("data", hits.getHits());
+            map.put("state", 200);
+        } catch (IOException e) {
+            e.printStackTrace();
+            map.put("msg", e.getMessage());
+            map.put("state", 200);
+        }
+        return map;
+    }
+
+    @ResponseBody
+    @RequestMapping("term")
+    public ResponseEntity searchTermQuery() {
+        SearchRequest request = new SearchRequest();
+        request.indices("shopping");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.termQuery("user", "刘德华"));
+        sourceBuilder.from(0);
+        List<Map<String, Object>> result = new ArrayList<>();
+        try {
+            SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+            SearchHits hits = response.getHits();
+            for (SearchHit hit : hits) {
+                result.add(hit.getSourceAsMap());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            result.add(new HashMap<>());
+        }
+        return ResponseEntity.ok(result);
     }
 
 }

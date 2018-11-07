@@ -23,6 +23,7 @@ public class EsConfig  {
         RestHighLevelClient client = new RestHighLevelClient(
                 RestClient.builder(new HttpHost(host, port, "http"))
         );
+
         return client;
     }
 }
