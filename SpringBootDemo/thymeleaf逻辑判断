@@ -1,0 +1,8 @@
+thymeleaf逻辑判断
+
+1、 if判断  th:if="${condition} == '1'"
+
+2、 th:switch="${condition}"
+        th:case="1"
+        th:case="2"
+

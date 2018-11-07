@@ -1,0 +1,22 @@
+thymeleaf字符串操作
+
+1、th:text  在页面中输出值
+
+2、th:value  将一个值放在input的value属性value中
+
+3、判断字符串是否为空  th:text="${#strings.isEmpty(str)}"
+
+4、字符是否在字符串中  th:text="${#strings.contains(str, '1')}"
+
+5、判断某个字符串是否是以什么开头的  th:text="${#strings:startsWith(str, '1')}"
+
+6、判断某个字符串是否是以什么结尾的  th:text="${#strings:endssWith(str, '1')}"
+
+7、字符串长度  th:text="${#strings.length(str)}"
+
+8、字符的位置 th:text="${#strings.indexOf(str, '1')}"
+
+9、截取子串  th:text="${#strings.substring(str,0,4)}"
+
+10、字符串变大小写  th:text="${#strings.toUpperCase(value)}"
+				  th:text="${#strings.toLowerCase(value)}"

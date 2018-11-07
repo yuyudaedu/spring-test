@@ -1,0 +1,10 @@
+thymeleaf 域对象操作类
+
+1、HttpServletRequest
+	${#httpServletRequest.getAttribute('req')}
+
+2、HttpSession
+	${#session.sess}
+
+3、ServletContext
+	${#application.app}

@@ -1,0 +1,22 @@
+thymeleaf 遍历
+
+
+1、迭代list
+1.1、th:each="u : ${list}"
+	      th:text="{${u.id}}"
+
+1.2、th:each="u, var : ${list}"
+		  th:text="${u.id}"
+		  th:text="${var.index}"    #下标
+		  th:text="${var.count}"    #计数器
+		  th:text="${var.size}"     #长度
+		  th:text="${var.even}"     #所在行是否为偶数
+		  th:text="${var.ood}"      #所在行是否为奇数
+		  th:text="${var.first}"    #所在行是否为第一个
+		  th:text="${var.last}"     #所在行是否为最后一个
+
+
+2、迭代map
+1.1 th:each="map : ${maps}"
+		th:each="entry:${map}" th:text="${entry.key}" th:text="${entry.value}"
+		  
