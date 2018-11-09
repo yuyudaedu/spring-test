@@ -1,0 +1,4 @@
+SpringBoot整合Junit
+
+1. @RunWith(SpringJUnit4ClassRunner.class)
+2. @SpringBootTest(classes={启动类.class})

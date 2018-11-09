@@ -1,0 +1,23 @@
+SpringBoot表单验证
+
+1、SpringBoot使用hibernate-validate技术进行验证
+
+2、在pojo中的字段上加上难注解, 如: @NotBlank
+
+3、在控制器中方法上加上 function String test(@Valid Test test, BindingResult result) {if(result.hasErrors()) {return "add";}}
+
+4、如果验证在两个关联操作页面，需要在另一个方法上也注入 Test对象， 名字与类名相同，首字母变小写，如果要换成别的名字，需要加上这样的注解 @ModelAttribute("aa") Test test，步骤3也要加上
+
+5、在html页面中，需要这样  <font th:errors="${aa.id}"></font>方式进行验证展示。
+
+6、如果想自定义难提示，只需 @NotBlank(message="字段不能为空！")
+
+
+
+验证规则 
+@NotBlank:  判断字符串是否为null或空串(去掉首尾空格)
+@NotEmpty:  判断字符串是否为null或空串(不去掉首尾空格)
+@Length(min=2,max=6, message="")： 验证长度
+@Min(value=15)：判断数值最小值
+@Max(value=30): 判断数值最大值
+@Email: 验证邮箱是否合法

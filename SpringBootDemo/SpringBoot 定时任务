@@ -1,0 +1,48 @@
+SpringBoot 定时任务
+
+一、schedule定时
+
+1、<dependency>
+	<groupId>org.springframework</groupId>
+	<artifact>spring-context-support</artifact>
+</dependency>
+
+2、@Component类上
+
+3、@Scheduled(cron="秒 分钟 小时 天 月 年")方法上
+
+二、Quartz定时 Job scheduling
+	1. job 任务
+	2. trigger 触发器
+	3、scheduler 任务调度
+	4、需要实现Job接口  下的execute方法，表示任务触发时执行的方法
+	5、调用 
+		5.1 创建Job对象 JobBuilder.newJob(自定义类.class).buider();
+	  	5.2 Trigger对象 TriggerBuilder.newTrigger().withSchedule(SimpleScheduleBuilder.函数).builder(); 或者 CronScheduleBuilder.cronSchedule("秒 分钟 小时 天 月 年").builder();
+	  	5.3 Scheduler对象 StdSchedulerFactory.getDefaultScheduler(); scheduler.scheduleJob(job,trigger);
+	  	5.4 scheduler.start();
+
+	6、SpringBoot整合quartz
+		artifactId: spring-context-support   spring-tx  quartz(exclusios加日志包)
+		6.1 配置quartz由spring管理 @Configuration @Bean
+		6.2 JobDetailFactoryBean 
+			JobDetailFactoryBean fc = new JobDetailFactoryBean()
+			fc.setJobClass(我们的定时类)
+			return fc;
+		6.3 SimpleTriggerFactoryBean trigger(JobDetailFactoryBean job)
+			fc = new SimpleTriggerFactoryBean();
+			fc.setJobDetail(job.getObject());
+			fc.setRepeatInterval(2000); //毫秒数
+			fc.setRepeatCount(5);
+			return fc;
+		6.4 SchedulerFactoryBean sfc(SimpleTriggerFactoryBean trigger) 
+			fc = new SchedulerFactoryBean();
+			fc.setTriggers(trigger.getObject());
+			return fc;
+		6.5 启动类  @EnableScheduling
+
+		6.6 Cron Trigger
+			CronTriggerFactoryBean cron(job)
+			fc.setCronExpression("秒 分钟 小时 天 月 年");
+			return fc;
+
