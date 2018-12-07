@@ -21,7 +21,7 @@
     </bean>-->
 
     <!--<bean id="facroty" class="factory.PeopleFactory"/>
-    <bean id="peo1" factory-bean="facroty" factory-method="newInstance"/>-->
+    <bean id="peo1" factory-bean="factory" factory-method="newInstance"/>-->
 
     <bean id="peo2" class="factory.PeopleFactory" factory-method="newInstance"/>
 
